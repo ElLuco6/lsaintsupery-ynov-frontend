@@ -21,7 +21,7 @@ jobs:
         run: npm install
  
       - name: Run tests and coverage headless
-        run: npm run test:ci
+        run: nmp run test
         continue-on-error: true
  
       - name: SonarQube analysis
